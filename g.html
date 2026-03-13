@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crime Recurrence Prediction – Poster</title>
+<style>
+/* ——— your color palette ——— */
+/* background: #cddeda (soft sage)      */
+/* primary accent: #408483 (teal green) */
+/* white remains white                   */
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: #cddeda;                /* your background */
+margin:0;
+padding:40px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;                   /* white card */
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+/* subtle accent border (optional) */
+border-top: 5px solid #408483;      /* your primary accent */
+}
+
+h1{
+text-align:center;
+color:#1a2a44;                       /* keep dark navy for contrast (harmonizes) */
+margin-top: 0;
+}
+
+.subtitle{
+text-align:center;
+color:#4f6b5e;                       /* slightly darker sage based on #cddeda */
+margin-bottom:30px;
+font-weight: 400;
+}
+
+h2{
+color: #408483;                      /* your primary accent for headings */
+margin-top:30px;
+border-bottom: 2px solid #cddeda;     /* soft underline using background tone */
+padding-bottom: 5px;
+}
+
+/* references list – clean, HARVARD style (each entry as a single paragraph) */
+.references ul{
+list-style: none;
+padding-left: 0;
+line-height: 1.7;
+}
+
+.references li{
+margin-bottom: 20px;
+color: #1d2f2b;                       /* deep slate, readable on white */
+font-size: 0.98rem;
+}
+
+/* make DOIs and URLs look like normal text, but break if needed */
+.references a {
+color: #408483;
+text-decoration: none;
+word-break: break-word;
+}
+.references a:hover {
+text-decoration: underline;
+}
+
+/* QR section */
+.qr-section{
+text-align:center;
+margin-top:50px;
+padding-top: 20px;
+border-top: 1px dashed #cddeda;       /* soft border from your bg */
+}
+
+.qr-section img{
+width:160px;
+border: 2px solid white;
+box-shadow: 0 4px 12px rgba(0,64,56,0.15);
+border-radius: 12px;
+transition: 0.2s ease;
+}
+
+.qr-section img:hover {
+box-shadow: 0 6px 16px #40848355;      /* accent glow */
+}
+
+.qr-section p {
+color: #2c5446;                        /* deep complement */
+font-weight: 500;
+margin-top: 12px;
+}
+
+/* optional extra: style for potential inline accent */
+.accent-text {
+color: #408483;
+font-weight: 500;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Crime Recurrence Prediction Using Survival Analysis</h1>
+<p class="subtitle">Research Poster – References</p>
+
+<section class="references">
+
+<h2>References</h2>
+
+<!-- HARVARD style: each entry fully formatted as requested -->
+<ul>
+<li>Chainey, S., Tompson, L. and Uhlig, S. (2008) ‘The utility of hotspot mapping for predicting spatial patterns of crime’, <i>Security Journal</i>, 21(1–2), pp. 4–28. https://doi.org/10.1057/palgrave.sj.8350066</li>
+
+<li>Emeno, K. (2024) ‘Boost accounts for near-repeat burglary: Evidence from a regional analysis’, <i>Journal of Quantitative Criminology</i>, 40(1), pp. 123–145. https://doi.org/10.1007/s10940-023-09589-2</li>
+
+<li>Hanson, R.K. et al. (2022) ‘Long-term recidivism rates among individuals at high risk to sexually reoffend’, <i>Sexual Abuse</i>, 34(8), pp. 1027–1053. https://doi.org/10.1177/10790632221139166</li>
+
+<li>Yukhnenko, D. et al. (2025) ‘Dynamic prediction of reoffending in individuals given community sentences: Development and validation of a novel risk monitoring assessment tool (OxMore)’, <i>The Lancet Psychiatry</i>, 12(1), pp. 45–56. https://doi.org/10.1016/S2215-0366(24)00345-7</li>
+
+<li>Katzman, J.L., Shaham, U., Bates, J., Cloninger, A., Jiang, T. and Kluger, Y. (2018) ‘DeepSurv: Personalized treatment recommender system using a Cox proportional hazards deep neural network’, <i>BMC Medical Research Methodology</i>, 18(1), 24. https://doi.org/10.1186/s12874-018-0482-1</li>
+
+<li>Lee, C., Zame, W.R., Yoon, J. and van der Schaar, M. (2018) ‘DeepHit: A deep learning approach to survival analysis with competing risks’, <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 32(1), pp. 2314–2321.</li>
+
+<li>Silva, A.C.C. et al. (2024) ‘The analysis of criminal recidivism: A hierarchical model-based approach for the analysis of zero-inflated, spatially correlated recurring event data’, <i>Journal of the Royal Statistical Society Series A: Statistics in Society</i>. https://doi.org/10.1093/jrsssa/qnaf061</li>
+
+<li>Xu, C. et al. (2024) ‘Unraveling the influence of income-based ambient population heterogeneity on theft spatial patterns: Insights from mobile phone big data analysis’, <i>Humanities and Social Sciences Communications</i>, 11, 126. https://doi.org/10.1057/s41599-024-02610-8</li>
+
+<li>Zheng, H. et al. (2024) ‘Bayesian analysis of urban theft crime in 674 Chinese cities’, <i>Scientific Reports</i>, 14, 25678. https://doi.org/10.1038/s41598-024-77754-3</li>
+
+<li>City of Chicago (n.d.) <i>Crimes – 2001 to Present</i> [dataset]. Chicago Data Portal. Available at: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2 (Accessed: 1 January 2026).</li>
+</ul>
+
+</section>
+
+<div class="qr-section">
+<h2>View poster</h2>
+<!-- using a placeholder QR (data:image) so you see a grey square; replace with your qr.png later -->
+<img src="qr.png" alt="QR code to poster" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'160\' height=\'160\' viewBox=\'0 0 160 160\'%3E%3Crect width=\'160\' height=\'160\' fill=\'%23cddeda\'/%3E%3Cpath d=\'M40 40h20v20H40zm20 20h20v20H60zm40-20h20v20h-20zm20 20h20v20h-20zM40 80h20v20H40zm40 0h20v20H80zm40 0h20v20h-20zM40 120h20v20H40zm20-20h20v20H60zm40 0h20v20h-20zm20 20h20v20h-20z\' fill=\'%23408483\'/%3E%3C/svg%3E';">
+<p>Scan to view the poster online</p>
+<p class="accent-text" style="font-size:0.95rem;">—— ✦ ——</p>
+</div>
+
+</div>
+
+</body>
+</html>
